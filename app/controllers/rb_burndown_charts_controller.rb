@@ -36,6 +36,8 @@
 class RbBurndownChartsController < RbApplicationController
   helper :burndown_charts
 
+  protect_from_forgery except: :show
+
   def show
     @burndown = @sprint.burndown(@project)
 
