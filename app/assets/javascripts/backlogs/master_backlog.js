@@ -47,7 +47,7 @@ jQuery(function ($) {
     $(this).parents('.backlog').find('ul.stories').toggleClass('closed');
   });
 
-  $('.backlog .menutoggler').on('click',function(){
+  $('.backlog .menu-trigger').on('click',function(){
     $(this).closest('ul').siblings('.menu-trigger').toggleClass('open icon-pulldown-up icon-pulldown');
 //    $(this).parents('.backlog').find('ul.stories').toggleClass('closed');
   });
