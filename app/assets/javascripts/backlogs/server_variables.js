@@ -34,8 +34,8 @@
 //++
 
 RB.constants = {
-  project_id: 1,
-  sprint_id: 1
+  project_id: $('.temp_information').data('project_id'),
+  sprint_id: $('.temp_information').data('sprint_id')
 };
 
 RB.i18n = {
