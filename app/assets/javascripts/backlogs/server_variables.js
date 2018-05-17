@@ -34,8 +34,8 @@
 //++
 
 RB.constants = {
-  project_id: $('.temp_information').data('project_id'),
-  sprint_id: $('.temp_information').data('sprint_id')
+  project_id: document.getElementsByClassName('temp_information')[0].getAttribute('data-project-id'),
+  sprint_id: document.getElementsByClassName('temp_information')[0].getAttribute('sprint-id')
 };
 
 RB.i18n = {
